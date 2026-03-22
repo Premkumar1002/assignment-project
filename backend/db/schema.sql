@@ -1,0 +1,6 @@
+CREATE TABLE tasks (
+  id SERIAL PRIMARY KEY,
+  task_name VARCHAR(255),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  status VARCHAR(50) DEFAULT 'Created'
+);

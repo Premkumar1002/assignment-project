@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  background: #f5f7fa;
+}
+
+.line {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+}
+
+.rooms {
+  display: flex;
+  gap: 20px;
+}
+
+.room {
+  flex: 1;
+  background: #eef;
+  padding: 10px;
+}
+
+.workstation {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
