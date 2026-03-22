@@ -1,5 +1,5 @@
-const API = "http://localhost:5000/workshop";
-
+// const API = "http://localhost:5000/workshop";
+const API = "https://assignment-project-zf6f.onrender.com/workshop";
 async function loadData() {
   const res = await fetch(API);
   const data = await res.json();

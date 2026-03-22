@@ -1,5 +1,5 @@
-const API = "http://localhost:5000/tasks";
-
+// const API = "http://localhost:5000/tasks";
+const API = "https://assignment-project-zf6f.onrender.com/tasks";
 async function addTask() {
   const input = document.getElementById("taskInput");
 
